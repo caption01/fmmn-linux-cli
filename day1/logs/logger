@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo -n 'what is your namr'
+
+read NAME
+
+echo "hello $NAME"
+
+# echo `date +'%F %T'` $* >> `date +%F`.log
